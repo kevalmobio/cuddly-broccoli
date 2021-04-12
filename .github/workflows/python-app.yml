@@ -25,4 +25,4 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Test # running tests
       
-        run: python ./app/django_python_boilerplate/manage.py test           
+        run: python testci/manage.py test           
